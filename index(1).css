@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(80, 19, 204, 0.5);
+    border-radius: 26px 0px 16px 0px;
+    border-bottom: 3px solid #65ec0a;
+    
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  button{
+  text-align: center;
+  position: relative;
+  padding: 10px 15px;
+  left:48%;
+  margin-top: 25px;
+  font-size: 25px;
+  background-color: darkgray;
+  border-radius: 26px 0px 16px 0px;
+  border-bottom: 3px solid #111;
+  
+  }
+  .info{
+    position: relative;
+    left:33%;
+    width: 350px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+  
+    border-radius: 26px 0px 16px 0px;
+    border-bottom: 13px solid #65ec0a;
+    
+   
+   
+  }
+  .info h2{
+    margin-top: 30px;
+  }
+  .info h2 span:nth-child(1){
+    color:black;
+  }
+  .info h2 span:nth-child(2){
+    color:red;
+  }
+  .info h2 span:nth-child(3){
+    color:blue;
+  }
